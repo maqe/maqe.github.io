@@ -1,37 +1,134 @@
-<!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>MAQE Homework Challenges by maqe</title>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+</head>
+<style>
+#container{
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    color: #FFF;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>MAQE Homework Challenges</h1>
-      </header>
-      <section>
-        <h3>Feel like a challenge?</h3>
-        <p>Here are a few of the take home tests that MAQE uses to test developers.</p>
-        <p>If you are interested try one or more of the following and email us your completed file(s) to <a href="mailto:foobar@maqe.com">foobar@maqe.com</a>.</p>
-        <ul>
-          <li><a href="html-css.html">HTML/CSS</a></li>
-          <li><a href="javascript.html">Javascript</a></li>
-          <li><a href="backend.html">Server-side Coding</a></li>
-        </ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/maqe">MAQE</a></p>
-      </footer>
+a{ color: #FFF }
+
+.box{
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 28px;
+}
+
+.sky{
+    background-color: #7AD1E1;
+    margin-bottom: 20px;
+}
+
+.green{
+    background-color: #ACD9D7;
+    margin-top: 20px;
+}
+
+.line-vertical{
+    width: 1px;
+    height: 50px;
+    margin: 0 auto;
+    border-left: 1px solid #CCC;
+}
+
+.line-top{
+    width: 580px;
+    margin: 0 auto 20px auto;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    height: 55px
+}
+
+.line-bottom{
+    clear: both;
+    width: 580px;
+    margin: 0 auto;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    height: 55px
+}
+
+.front-end{
+    float: left;
+    width: 360px;
+}
+
+.back-end{
+    float: right;
+    width: 360px;
+}
+
+.list{
+    width: 420px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.list div{
+    padding: 15px 0;
+}
+
+.list-no{
+    float: left;
+    width: 60px;
+    text-align: center;
+}
+
+.list-link{
+    float: left;
+    border-left: 20px solid #FFF;
+    padding-left: 20px !important;
+}
+
+.orange-1, .orange-2{ border-bottom: 20px solid #FFF; font-size: 40px; line-height: 1.5 }
+.orange-1, .front-end .list{ background-color: #E98A56; }
+.orange-2, .back-end .list{ background-color: #EF7146; }
+</style>
+<body>
+<div id="container">
+    <div class="box sky">
+        Interested in joining the <a href="http://www.maqe.com">MAQE dev team</a>? <br />Fantastic! Please follow these instructions.
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+    <div class="line-vertical"></div>
+    <div class="line-top"></div>
+    <div class="front-end">
+        <div class="box orange-1">I'm a front-end developer</div>
+        <div class="list">
+                <div class="list-no">1.</div>
+                <div class="list-link"><a href="html-css.html">Take the HTML & CSS test</a></div>
+        </div>
+        <div class="list">
+            <div class="list-no">2.</div>
+            <div class="list-link"><a href="javascript.html">Take the Javascript test</a></div>
+        </div>
+    </div>
+    <div class="back-end">
+        <div class="box orange-2">I'm a back-end developer</div>
+        <div class="list">
+                <div class="list-no">1.</div>
+                <div class="list-link"><a href="html-css.html">Take the HTML & CSS test</a></div>
+        </div>
+        <div class="list">
+            <div class="list-no">2.</div>
+            <div class="list-link"><a href="backend.html">Take the Server-side coding test</a></div>
+        </div>
+    </div>
+    <div class="line-bottom"></div>
+    <div class="line-vertical"></div>
+    <div class="box green">
+        Nicely done. Next, send your test results and your resume to <a href="http://www.maqe.com">MAQE</a> at <a href="mailto:foobar@maqe.com">foobar@maqe.com</a>.
+    </div>
+</div>
+</body>
 </html>
