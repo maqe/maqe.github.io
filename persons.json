@@ -2,27 +2,27 @@
 	"firstName": "Andrew",
 	"nickname": "Drew",
 	"title": "Technical Lead",
-	"image": "http://maqe.com/files/avatars/8.jpg"
+	"image": "http://placekitten.com/200/200"
 },
 {
 	"firstName": "Andrew",
 	"title": "Lead Developer",
-	"image": "http://maqe.com/files/avatars/4.jpg"
+	"image": "http://placekitten.com/200/200"
 },
 {
-	"firstName": "Kristamuk",
-	"nickname": "Krit",
+	"firstName": "Nattawan",
+	"nickname": "Tan",
 	"title": "Lead QA",
-	"image": "http://maqe.com/files/avatars/23.jpg"
+	"image": "http://placekitten.com/200/200"
 },
 {
-	"firstName": "Tanun",
-	"nickname": "Turbo",
+	"firstName": "Unnawut",
+	"nickname": "O",
 	"title": "Developer",
-	"image": "http://maqe.com/files/avatars/20.jpg"
+	"image": "http://placekitten.com/200/200"
 },
 {
 	"firstName": "Jeff",
 	"title": "Lead Developer",
-	"image": "http://maqe.com/files/avatars/18.jpg"
+	"image": "http://placekitten.com/200/200"
 }]
