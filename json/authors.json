@@ -8,17 +8,17 @@
     },
     {
         "id": 2,
-        "name": "Zlatan Ibrahimović",
+        "name": "Michael De Santa",
         "role": "Moderator",
-        "place": "Sweden",
-        "avatar_url": "https://api.adorable.io/avatars/250/zlatan"
+        "place": "Los Santos",
+        "avatar_url": "https://api.adorable.io/avatars/250/michael"
     },
     {
         "id": 3,
-        "name": "Mitsuha Miyamizu",
+        "name": "Peter Parker",
         "role": "Moderator",
-        "place": "Itomori",
-        "avatar_url": "http://loremflickr.com/g/250/250/japan,girl/all"
+        "place": "New York",
+        "avatar_url": "https://api.adorable.io/avatars/250/peter-parker"
     },
     {
         "id": 4,
@@ -29,9 +29,16 @@
     },
     {
         "id": 5,
-        "name": "Linus Torvalds",
+        "name": "Boromir",
         "role": "Registered user",
-        "place": "Oregon",
-        "avatar_url": "https://api.adorable.io/avatars/250/linus"
+        "place": "Gondor",
+        "avatar_url": "https://api.adorable.io/avatars/250/boromir"
+    },
+    {
+        "id": 6,
+        "name": "Bruce Wayne",
+        "role": "Sponsor",
+        "place": "Gotham City",
+        "avatar_url": "https://api.adorable.io/avatars/250/bruce-wayne"
     }
 ]
