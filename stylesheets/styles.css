@@ -14,14 +14,14 @@
 
 body {
 	font:1rem/1.5 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#777;
+	color:#2C2C2C;
 	font-weight:400;
 	margin:1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font:1rem/1.5 "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color:#222;
+	color:#000;
 	margin:0 0 1.25rem;
 	font-weight: 700;
 }
