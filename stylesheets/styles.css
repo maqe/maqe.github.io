@@ -38,16 +38,8 @@ h1 {
 	font-size: 2rem;
 }
 
-h2 {
-	color:#393939;
-}
-
-h3, h4, h5, h6 {
-	color:#494949;
-}
-
 a {
-	color:#39c;
+	color:#fe571e;
 	font-weight:400;
 	text-decoration:none;
 }
@@ -59,7 +51,7 @@ a small {
 }
 
 .wrapper {
-	max-width: 1280px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
