@@ -38,8 +38,12 @@ h1 {
 	font-size: 2rem;
 }
 
+h2 {
+	font-size: 1.5rem;
+}
+
 a {
-	color:#fe571e;
+	color:#f64610;
 	font-weight:400;
 	text-decoration:none;
 }
@@ -75,6 +79,15 @@ ul {
 	border:1px solid #e5e5e5;
 	padding: 1rem 2rem;
 }
+
+ul ul {
+	border: none;
+	background: initial;
+	padding: initial;
+	padding-inline-start: 2rem;
+	margin: 0;
+}
+
 img {
 	max-width:100%;
 }
@@ -88,11 +101,7 @@ header {
 }
 
 strong {
-	font-weight:700;
-}
-
-section {
-	padding-bottom: 3rem;
+	font-weight: 700;
 }
 
 small {
@@ -104,10 +113,6 @@ hr {
 	background:#e5e5e5;
 	height:1px;
 	margin:0 0 1.25rem;
-}
-
-footer {
-
 }
 
 .text-center {
